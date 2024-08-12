@@ -1,0 +1,12 @@
+/* Dashboard.css */
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Space between cards */
+}
+
+.card {
+  flex: 1 1 calc(33.333% - 16px); /* Adjust card width */
+  box-sizing: border-box; /* Ensure padding/margin doesn't affect width */
+  /* Add other card styles here */
+}
